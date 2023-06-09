@@ -17,6 +17,7 @@ include_once 'config/function.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400;1,500;1,700&family=Quicksand:wght@500&display=swap"
         rel="stylesheet">
     <title>Data/Input Pasien</title>
@@ -89,7 +90,10 @@ include_once 'config/function.php';
                         <label>Alamat </label>
                         <textarea name="alamat" autocomplete="off" required placeholder="Alamat Lengkap" class="form-control id="" cols="10" rows="4" autocomplete="off"></textarea><br>
 
-                        <input type="submit" name="submit" value="Daftar" class="btn btn-success form-control" onclick="return confirm('Yakin Daftar ?')">
+                        <!--<input type="submit" name="submit" value="Daftar" class="btn btn-success form-control" onclick="return confirm('Yakin Daftar ?')">-->
+                        <button type="submit" name="submit" value="Daftar" class="button form-control" onclick="return confirm('Yakin Daftar ?')">
+                        Daftar
+                        </button>
                         </form>
                     </div>
                 </div>

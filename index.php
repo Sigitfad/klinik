@@ -12,6 +12,7 @@ include_once 'config/koneksi.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400;1,500;1,700&family=Quicksand:wght@500&display=swap"
         rel="stylesheet">
 
@@ -19,6 +20,7 @@ include_once 'config/koneksi.php';
 
   </head>
   <body>
+    
     
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
@@ -46,6 +48,7 @@ include_once 'config/koneksi.php';
         </div>
     </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </nav>
+<img src="assets/images/klinik.jpg" alt="">
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <h4 class="text-center">Hallo Admin, Selamat Datang !</h4>
 </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

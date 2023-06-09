@@ -30,6 +30,7 @@ if(isset($_POST['login'])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400;1,500;1,700&family=Quicksand:wght@500&display=swap"
         rel="stylesheet">
     <title>Data/Input Pasien</title>
@@ -55,7 +56,10 @@ if(isset($_POST['login'])) {
                         <label>Password </label>
                         <input type="password" name="password" required placeholder="Password Admin" class="form-control"><br>
 
-                        <input type="submit" name="login" value="Login"  class="btn btn-warning form-control">
+                        <!--<input type="submit" name="login" value="Login"  class="btn btn-warning form-control">-->
+                        <button type="submit" name="login" value="Login" class="button form-control">
+                        Login
+                        </button>
                     </form>
                     
                     </div>
