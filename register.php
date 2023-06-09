@@ -102,11 +102,11 @@ include_once 'config/function.php';
     </div>
 
     <br>
-    <footer>
+    <!--<footer>
     <div class="text-center p-2" style="background-color: #5DA7DB; color: aliceblue;">
     <b> Kelompok 8</b>&nbsp;&nbsp;&nbsp; || &nbsp;&nbsp;&nbsp;<i>Final Project</i><b> © 2022</b>
     </div>
-    </footer>
+    </footer>-->
 
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>

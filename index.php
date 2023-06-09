@@ -48,10 +48,8 @@ include_once 'config/koneksi.php';
         </div>
     </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </nav>
-<img src="assets/images/klinik.jpg" alt="">
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <h4 class="text-center">Hallo Admin, Selamat Datang !</h4>
-</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <img src="assets/images/klinik.jpg" height="835" width="1920" alt="">
+</div>
 
   <!-- Footer-->
   <footer>

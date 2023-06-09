@@ -78,6 +78,7 @@ if(isset($_POST['update'])) {
                         <div class="input-group">
                         <input type="text" class="form-control" id="word" name="query" placeholder="Cari Data ..." required>
                             <div class="input-group-append mr-2">
+                                &nbsp;
                                 <button type="submit" class="btn btn-primary" type="button" id="submit>
                                     <i class="fa fa-search"></i> Search
                                 </button>
