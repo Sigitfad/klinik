@@ -96,6 +96,18 @@ class DataDel extends Database {
                 return $row;
             } //if close
         } //function showDataById close
+
+
+        public function showDataByIdShow($showid)
+        { //function showDataById open
+            $sql = "SELECT * FROM tb_pasien WHERE id = '$showid'";
+            $result = $this->conn->query($sql);
+            if ($result->num_rows == 1) {
+                $row = $result->fetch_assoc();
+                return $row;
+            } //if close
+        } //function showDataById close
+
 }
 
 
@@ -127,6 +139,12 @@ class Log extends Database {
                 'user_password' => $data['password']
             ];
         }
+}
+
+class Clock extends Database {
+    public function updateClock(){
+        date_default_timezone_set('Asia/Jakarta');
+    }
 }
 
 ?>

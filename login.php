@@ -18,9 +18,6 @@ if(isset($_POST['login'])) {
     
     }
 }
-
-
-
 ?>
 
 
@@ -30,14 +27,20 @@ if(isset($_POST['login'])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400;1,500;1,700&family=Quicksand:wght@500&display=swap"
         rel="stylesheet">
-    <title>Data/Input Pasien</title>
+    <title>Data & Registrasi Pasien</title>
 
   </head>
   <body>
-    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <!--HARI & JAM-->
+    <div class="container" style="text-align: center;" >
+        <h6 style="display: inline-block;" id="date" ></h6>
+        <h6 style="display: inline-block;" id="clock" ></h6>
+    </div>
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-md-5">
@@ -73,5 +76,8 @@ if(isset($_POST['login'])) {
 
     
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="assets/js/tanggalrealtime.js" ></script>
+    <script src="assets/js/jamrealtime.js" ></script>
   </body>
 </html>
